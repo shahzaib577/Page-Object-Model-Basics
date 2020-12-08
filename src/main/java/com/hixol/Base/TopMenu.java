@@ -19,7 +19,7 @@ public class TopMenu {
 	}
 
 	public CreatAccountPage gotoAccounts() {
-		Page.click("accounts_linktext");
+		Page.click("accounts_xpath");
 		return new CreatAccountPage();
 	}
 
